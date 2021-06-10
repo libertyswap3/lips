@@ -66,7 +66,7 @@ These calls generally result in a "rough consensus" around what LIPs should be i
 
 The following is the standardization process for all LIPs in all tracks:
 
-![LIP Status Diagram](../assets/LIP-1/LIP-process.png)
+![LIP Status Diagram](/assets/LIP-1/LIP-process.png)
 
 **Idea** - An idea that is pre-draft. This is not tracked within the LIP Repository.
 
@@ -92,10 +92,10 @@ If this period results in necessary normative changes it will revert the LIP to 
 
 Each LIP should have the following parts:
 
-- Preamble - RFC 822 style headers containing metadata about the LIP, including the LIP number, a short descriptive title (limited to a maximum of 44 characters), and the author details. See [below](./LIP-1.md#LIP-header-preamble) for details.
+- Preamble - RFC 822 style headers containing metadata about the LIP, including the LIP number, a short descriptive title (limited to a maximum of 44 characters), and the author details. 
 - Abstract - A short (~200 word) description of the technical issue being addressed.
 - Motivation (*optional) - A motivation section is critical for LIPs that want to change the Libertyswap protocol. It should clearly explain why the existing protocol specification is inadequate to address the problem that the LIP solves. LIP submissions without sufficient motivation may be rejected outright.
-- Specification - The technical specification should describe the syntax and semantics of any new feature. The specification should be detailed enough to allow competing, interoperable implementations for any of the current Libertyswap platforms (cpp-Libertyswap, go-Libertyswap, parity, LibertyswapJ, Libertyswapjs-lib, [and others](https://github.com/Libertyswap/wiki/wiki/Clients).
+- Specification - The technical specification should describe the syntax and semantics of any new feature. The specification should be detailed enough to allow competing, interoperable implementations for any of the current Libertyswap platforms (cpp-Libertyswap, go-Libertyswap, parity, LibertyswapJ, Libertyswapjs-lib.
 - Rationale - The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.
 - Backwards Compatibility - All LIPs that introduce backwards incompatibilities must include a section describing these incompatibilities and their severity. The LIP must explain how the author proposes to deal with these incompatibilities. LIP submissions without a sufficient backwards compatibility treatise may be rejected outright.
 - Test Cases - Test cases for an implementation are mandatory for LIPs that are affecting consensus changes. Tests should either be inlined in the LIP as data (such as input/expected output pairs, or included in `../assets/LIP-###/<filename>`.
@@ -147,15 +147,15 @@ Headers requiring dates will always do so in the format of ISO 8601 (yyyy-mm-dd)
 
 The `author` header lists the names, email addresses or usernames of the authors/owners of the LIP. Those who prefer anonymity may use a username only, or a first name and a username. The format of the `author` header value must be:
 
-> Random J. User &lt;address@dom.ain&gt;
+> James User &lt;James485713@yahoo.com.ain&gt;
 
 or
 
-> Random J. User (@username)
+> James User (@username)
 
 if the email address or GitHub username is included, and
 
-> Random J. User
+> James User
 
 if the email address is not given.
 
