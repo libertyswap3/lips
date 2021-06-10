@@ -66,7 +66,7 @@ These calls generally result in a "rough consensus" around what LIPs should be i
 
 The following is the standardization process for all LIPs in all tracks:
 
-![LIP Status Diagram](/assets/LIP-1/LIP-process.png)
+![LIP Status Diagram](pic/LIP-process.png)
 
 **Idea** - An idea that is pre-draft. This is not tracked within the LIP Repository.
 
