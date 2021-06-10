@@ -105,7 +105,7 @@ Each LIP should have the following parts:
 
 ## LIP Formats and Templates
 
-LIPs should be written in [markdown] format. There is a [template](https://github.com/Libertyswap/LIPs/blob/master/LIP-template.md) to follow.
+LIPs should be written in [markdown] format. There is a [template](https://github.com/libertyswap3/discussion/blob/main/Lip-template.md) to follow.
 
 ## LIP Header Preamble
 
