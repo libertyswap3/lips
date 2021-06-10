@@ -134,7 +134,7 @@ Headers requiring dates will always do so in the format of ISO 8601 (yyyy-mm-dd)
 
 The `author` header lists the names, email addresses or usernames of the authors/owners of the LIP. Those who prefer anonymity may use a username only, or a first name and a username. The format of the `author` header value must be:
 
-> James User &lt;James485713@yahoo.com.ain&gt;
+> James User &lt;James485713@yahoo.com&gt;
 
 or
 
