@@ -1,11 +1,12 @@
 ---
-Lip: 1
+lip: 1
 title: LIP Purpose and Guidelines
 status: Living
 type: Meta
-author:James< James485713@yahoo.com >.
+author: James< James485713@yahoo.com >.
 created: 2021-6-10
 ---
+
 
 ## What is an LIP?
 
