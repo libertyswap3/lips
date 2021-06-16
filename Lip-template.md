@@ -5,7 +5,7 @@ author: <a list of the author's or authors' name(s) and/or username(s), or name(
 discussions-to: <URL>
 status: Draft
 type: <Standards Track, Meta, or Informational>
-category (*only required for Standards Track): <Core, Networking, Interface, or ERC>
+category (*only required for Standards Track): <Core, Networking, Interface>
 created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
 requires (*optional): <LIP number(s)>
 replaces (*optional): <LIP number(s)>
@@ -38,7 +38,7 @@ Test Cases
 Test cases for an implementation are mandatory for LIPs that are affecting consensus changes. Other LIPs can choose to include links to test cases if applicable.
 
 Reference Implementation
-An optional section that contains a reference/example implementation that people can use to assist in understanding or implementing this specification. If the implementation is too large to reasonably be included inline, then consider adding it as one or more files in ../assets/eip-####/.
+An optional section that contains a reference/example implementation that people can use to assist in understanding or implementing this specification. If the implementation is too large to reasonably be included inline, then consider adding it as one or more files in ../assets/lip-####/.
 
 Security Considerations
 All LIPs must contain a section that discusses the security implications/considerations relevant to the proposed change. Include information that might be important for security discussions, surfaces risks and can be used throughout the life cycle of the proposal. E.g. include security-relevant design decisions, concerns, important discussions, implementation-specific guidance and pitfalls, an outline of threats and risks and how they are being addressed. LIP submissions missing the "Security Considerations" section will be rejected. An LIP cannot proceed to status "Final" without a Security Considerations discussion deemed sufficient by the reviewers.
