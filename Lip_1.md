@@ -5,18 +5,18 @@ status: Living
 type: Meta
 author: James <James485713@yahoo.com>
 created: 2021-06-10
----
+</pre>
 
-## What is an LIP?
+==What is an LIP?==
 
 LIP stands for Libertyswap Improvement Proposal. An LIP is a design document providing information to the Libertyswap community, or describing a new feature for Libertyswap or its processes or environment. The lIP should provide a concise technical specification of the feature and a rationale for the feature. The LIP author is responsible for building consensus within the community and documenting dissenting opinions.
 
-## LIP Rationale
+==LIP Rationale==
 
 We intend LIPs to be the primary mechanisms for proposing new features, for collecting community technical input on an issue, and for documenting the design decisions that have gone into Libertyswap. Because the LIPs are maintained as text files in a versioned repository, their revision history is the historical record of the feature proposal.
 For Libertyswap implementers, LIPs are a convenient way to track the progress of their implementation. Ideally each implementation maintainer would list the LIPs that they have implemented. This will give end users a convenient way to know the current status of a given implementation or library.
 
-## LIP Types
+==LIP Types==
 
 There are three types of LIP:
 - A **Standards Track LIP** describes any change that affects most or all Libertyswap implementations, such as—a change to the network protocol, a change in block or transaction validity rules, proposed application standards/conventions, or any change or addition that affects the interoperability of applications using Libertyswap. Standards Track LIPs consist of three parts—a design document, an implementation, and (if warranted) an update to the [formal specification]. Furthermore, Standards Track LIPs can be broken down into the following categories:
@@ -27,13 +27,13 @@ There are three types of LIP:
 It is highly recommended that a single LIP contain a single key proposal or new idea. The more focused the LIP, the more successful it tends to be. A change to one client doesn't require an LIP; a change that affects multiple clients, or defines a standard for multiple apps to use, does.
 An LIP must meet certain minimum criteria. It must be a clear and complete description of the proposed enhancement. The enhancement must represent a net improvement. The proposed implementation, if applicable, must be solid and must not complicate the protocol unduly.
 
-### Special requirements for Core LIPs
+==Special requirements for Core LIPs==
 
 If a **Core** LIP mentions or proposes changes to the EVM (Libertyswap Virtual Machine), it should refer to the instructions by their mnemonics and define the opcodes of those mnemonics at least once. A preferred way is the following:
 ```
 REVERT (0xfe)
 ```
-## LIP Work Flow
+==LIP Work Flow==
 
 ### Shepherding an LIP
 
@@ -41,7 +41,7 @@ Parties involved in the process are you, the champion or *LIP author*, the [*LIP
 Before you begin writing a formal LIP, you should vet your idea. Ask the Libertyswap community first if an idea is original to avoid wasting time on something that will be rejected based on prior research.  
 Once the idea has been vetted, your next responsibility will be to present (by means of an LIP) the idea to the reviewers and all interested parties, invite editors, developers, and the community to give feedback on the aforementioned channels. You should try and gauge whether the interest in your LIP is commensurate with both the work involved in implementing it and how many parties will have to conform to it. For example, the work required for implementing a Core LIP will be much greater than for an ERC and the LIP will need sufficient interest from the Libertyswap client teams. Negative community feedback will be taken into consideration and may prevent your LIP from moving past the Draft stage.
 
-### Core LIPs
+==Core LIPs==
 
 For Core LIPs, given that they require client implementations to be considered **Final** (see "LIPs Process" below), you will need to either provide an implementation for clients or convince clients to implement your LIP. 
 
@@ -54,7 +54,7 @@ These calls generally result in a "rough consensus" around what LIPs should be i
 :warning: The LIPs process and AllCoreDevs call were not designed to address contentious non-technical issues, but, due to the lack of other ways to address these, often end up entangled in them. This puts the burden on client implementers to try and gauge community sentiment, which hinders the technical coordination function of LIPs and AllCoreDevs calls. If you are shepherding an LIP, you can make the process of building community consensus easier by making sure that thread for your LIP includes or links to as much of the community discussion as possible and that various stakeholders are well-represented.
 *In short, your role as the champion is to write the LIP using the style and format described below, shepherd the discussions in the appropriate forums, and build community consensus around the idea.* 
 
-### LIP Process 
+==LIP Process== 
 The following is the standardization process for all LIPs in all tracks:
 
 ![LIP Status Diagram](pic/LIP-process.png)
@@ -77,7 +77,7 @@ If this period results in necessary normative changes it will revert the LIP to 
 
 **Living** - A special status for LIPs that are designed to be continually updated and not reach a state of finality. This includes most notably LIP-1. Any changes to these LIPs will move between `REVIEW` and `LIVING` states.
 
-## What belongs in a successful LIP?
+==What belongs in a successful LIP?==
 Each LIP should have the following parts:
 - Preamble - RFC 822 style headers containing metadata about the LIP, including the LIP number, a short descriptive title (limited to a maximum of 44 characters), and the author details. 
 - Abstract - A short (~200 word) description of the technical issue being addressed.
@@ -90,7 +90,7 @@ Each LIP should have the following parts:
 - Security Considerations - All LIPs must contain a section that discusses the security implications/considerations relevant to the proposed change. Include information that might be important for security discussions, surfaces risks and can be used throughout the life-cycle of the proposal. E.g. include security-relevant design decisions, concerns, important discussions, implementation-specific guidance and pitfalls, an outline of threats and risks and how they are being addressed. LIP submissions missing the "Security Considerations" section will be rejected. An LIP cannot proceed to status "Final" without a Security Considerations discussion deemed sufficient by the reviewers.
 - Copyright Waiver - All LIPs must be in the public domain. See the bottom of this LIP for an example copyright waiver.
 
-## LIP Formats and Templates
+==LIP Formats and Templates==
 
 LIPs should be written in [markdown] format. There is a [template](https://github.com/libertyswap3/discussion/blob/main/Lip-template.md) to follow.
 
@@ -130,7 +130,7 @@ Headers that permit lists must separate elements with commas.
 
 Headers requiring dates will always do so in the format of ISO 8601 (yyyy-mm-dd).
 
-#### `author` header
+==`author` header==
 
 The `author` header lists the names, email addresses or usernames of the authors/owners of the LIP. Those who prefer anonymity may use a username only, or a first name and a username. The format of the `author` header value must be:
 
