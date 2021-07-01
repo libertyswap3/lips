@@ -37,7 +37,7 @@ An LIP must meet certain minimum criteria. It must be a clear and complete descr
 
 Parties involved in the process are you, the champion or *LIP author*.
 
-Before you begin writing a formal LIP, you should vet your idea. Ask the Libertyswap community first if an idea is original to avoid wasting time on something that will be rejected based on prior research. It is thus recommended to open a discussion thread on [https://gitter.im/Libertyswap568/community] to do this, but you can also use [https://www.reddit.com/r/Libertyswap/]. 
+Before you begin writing a formal LIP, you should vet your idea. Ask the Libertyswap community first if an idea is original to avoid wasting time on something that will be rejected based on prior research. It is thus recommended to open a discussion thread on [https://gitter.im/Libertyswap568/community] to do this, but you can also use [https://www.reddit.com/r/libertyswap3/]. 
 
 Once the idea has been vetted, your next responsibility will be to present (by means of an LIP) the idea to the reviewers and all interested parties, invite editors, developers, and the community to give feedback on the aforementioned channels. You should try and gauge whether the interest in your LIP is commensurate with both the work involved in implementing it and how many parties will have to conform to it. For example, the LIP will need sufficient interest from the Libertyswap client teams. Negative community feedback will be taken into consideration and may prevent your LIP from moving past the Draft stage. 
 
